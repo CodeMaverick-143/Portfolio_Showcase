@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 20px 0;
+    overflow: auto;
+}
+#search-container {
+    margin: 20px 0;
+}
+
+#search-bar {
+    width: 60%;
+    padding: 12px 18px;
+    font-size: 1.2em;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: linear-gradient(145deg, #1e1e2f, #2a2a44);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#search-bar:focus {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    transform: translateY(-3px);
+}
+
+#search-bar::placeholder {
+    color: #aaa;
+}
+
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.user-card {
+    background: linear-gradient(145deg, #1e1e2f, #2a2a44);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5), 0 -5px 10px rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8), 0 -5px 20px rgba(255, 255, 255, 0.1);
+}
+
+
+.user-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 4px solid #fff;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    margin-bottom: 15px;
+}
+
+
+.user-card .name {
+    font-size: 1.2em;
+    margin: 10px 0;
+    letter-spacing: 0.5px;
+    color: #ffffffcc;
+}
+
+.user-card .name span {
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.user-card a {
+    text-decoration: none;
+    color: #03e9f4;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.user-card a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #03e9f4, 0 0 20px #03e9f4;
+}
+
+
+.user-card .portfolio a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(255, 0, 150, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.user-card .portfolio a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(255, 0, 150, 0.5);
+    background: linear-gradient(90deg, #e52e71, #ff8a00);
+    color: #fff;
+}
+
+
+#slider-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#slider-container label {
+    font-size: 1.2em;
+    color: #ff8a00;
+}
+
+#user-slider {
+    width: 300px;
+    margin: 10px;
+}
+
+#slider-value {
+    font-weight: bold;
+    color: #00ffe7;
+    margin-left: 10px;
+}
+#pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+#pagination-controls button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#pagination-controls button:hover:not(:disabled) {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 0, 150, 0.3);
+}
+
+#pagination-controls button:disabled {
+    background: #555;
+    cursor: not-allowed;
+}
+
+#page-info {
+    font-size: 1.2em;
+    color: #fff;
+}
