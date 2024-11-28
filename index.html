@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Showcase</title>
+    <title>Cyber Showcase</title>
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Search Bar -->
-    <div id="search-container">
-        <input type="text" id="search-bar" placeholder="Search by name..." />
-    </div>
+    <!-- Header Section -->
+    <header id="main-header">
+        <div class="header-content">
+            <h1>NSTxADYPU Students Portfolio</h1>
+            <input type="text" id="search-bar" placeholder="Search by name..." />
+        </div>
+    </header>
 
     <!-- Main Showcase Area -->
-    <div id="main-container">
-        <div id="img"><img src="img.jpg" alt="Portfolio"></div>
-        <div id="name">Name: 
-            <span id="name-span">Arpit Sarang</span>
-        </div>
-        <div class="git">Github:
-            <a id="username" href="#" target="_blank">CodeMaverick-143</a>
-        </div>
-        <div class="portfolio">Portfolio: 
-            <a id="portfolio-link" href="#" target="_blank">View My Work</a>
-        </div>
+    <div id="main-container"></div>
+
+    <!-- Pagination Controls -->
+    <div id="pagination-controls">
+        <button id="prev-btn" disabled>Previous</button>
+        <span id="page-info"></span>
+        <button id="next-btn">Next</button>
     </div>
-  <script src="script.js"></script>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
