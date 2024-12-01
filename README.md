@@ -1,6 +1,6 @@
 # Portfolio-Showcase: NSTxADYPU Students Portfolio
 
-Welcome to the **Cyber Showcase** project! This web application showcases the portfolios of students from NST and ADYPU universities. It allows users to browse through portfolios, search for students by name, and view their GitHub profiles and portfolios.
+Welcome to the **NSTxADYPU Students Portfolio** project! This web application showcases the portfolios of students from NST and ADYPU universities. It allows users to browse through portfolios, search for students by name, and view their GitHub profiles and portfolios.
 
 ## Features
 
