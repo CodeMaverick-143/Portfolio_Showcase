@@ -9,130 +9,130 @@
     },
     {
         "id": 2,
-        "name": "User 2",
+        "name": "Naman Gupta",
         "github": "https://github.com/User2",
         "portfolio": "https://portfolio.com/User2",
-        "img": "/photo/img1.png",
+        "img": "/photo/img2.png",
         "github_username": "User2"
     },
     {
         "id": 3,
-        "name": "User 3",
-        "github": "https://github.com/User3",
-        "portfolio": "https://portfolio.com/User3",
-        "img": "/photo/img1.png",
-        "github_username": "User3"
+        "name": "Abhay Pratap Yadav",
+        "github": "https://github.com/QUBITABHAY",
+        "portfolio": "https://abhaypotrfolio.netlify.app/",
+        "img": "/photo/img3.png",
+        "github_username": "QUBITABHAY"
     },
     {
         "id": 4,
-        "name": "User 4",
+        "name": "Shubh Arya",
         "github": "https://github.com/User4",
-        "portfolio": "https://portfolio.com/User4",
-        "img": "/photo/img1.png",
+        "portfolio": "https://shubh-portfolio-nst.netlify.app/",
+        "img": "/photo/img4.png",
         "github_username": "User4"
     },
     {
         "id": 5,
-        "name": "User 5",
+        "name": "Nilesh Nand Lal",
         "github": "https://github.com/User5",
-        "portfolio": "https://portfolio.com/User5",
-        "img": "/photo/img1.png",
+        "portfolio": "https://nilesh-portfolio-nst.netlify.app/",
+        "img": "/photo/img5.png",
         "github_username": "User5"
     },
     {
         "id": 6,
-        "name": "User 6",
-        "github": "https://github.com/User6",
-        "portfolio": "https://portfolio.com/User6",
-        "img": "/photo/img1.png",
-        "github_username": "User6"
+        "name": "Vipul",
+        "github": "https://github.com/codervipul775",
+        "portfolio": "https://codervipulportfolio.netlify.app/",
+        "img": "/photo/img6.png",
+        "github_username": "codervipul775"
     },
     {
         "id": 7,
-        "name": "User 7",
+        "name": "Ved Bhadani",
         "github": "https://github.com/User7",
-        "portfolio": "https://portfolio.com/User7",
-        "img": "/photo/img1.png",
+        "portfolio": "https://taupe-dasik-ff8070.netlify.app/",
+        "img": "/photo/img7.png",
         "github_username": "User7"
     },
     {
         "id": 8,
-        "name": "User 8",
+        "name": "Riddhi Khera",
         "github": "https://github.com/User8",
-        "portfolio": "https://portfolio.com/User8",
-        "img": "/photo/img1.png",
+        "portfolio": "https://magical-arithmetic-9dbb1b.netlify.app/",
+        "img": "/photo/img8.png",
         "github_username": "User8"
     },
     {
         "id": 9,
-        "name": "User 9",
+        "name": "Himanshu Mishra",
         "github": "https://github.com/User9",
-        "portfolio": "https://portfolio.com/User9",
-        "img": "/photo/img1.png",
+        "portfolio": "https://himanshu-portfolio-nst.netlify.app/",
+        "img": "/photo/img9.png",
         "github_username": "User9"
     },
     {
         "id": 10,
-        "name": "User 10",
+        "name": "Himanshu Gulhane",
         "github": "https://github.com/User10",
-        "portfolio": "https://portfolio.com/User10",
-        "img": "/photo/img1.png",
+        "portfolio": "https://inspiring-daffodil-c8cf19.netlify.app/",
+        "img": "/photo/img10.png",
         "github_username": "User10"
     },
     {
         "id": 11,
-        "name": "User 11",
-        "github": "https://github.com/User11",
-        "portfolio": "https://portfolio.com/User11",
-        "img": "/photo/img11.jpg",
-        "github_username": "User11"
+        "name": "Vivek Wagdare",
+        "github": "https://github.com/AryanVBW",
+        "portfolio": "https://portfolio.aryanvbw.live/",
+        "img": "/photo/img11.png",
+        "github_username": "AryanVBW"
     },
     {
         "id": 12,
-        "name": "User 12",
+        "name": "Priyank Gaur",
         "github": "https://github.com/User12",
-        "portfolio": "https://portfolio.com/User12",
-        "img": "/photo/img12.jpg",
+        "portfolio": "https://roaring-selkie-743efb.netlify.app/",
+        "img": "/photo/img12.png",
         "github_username": "User12"
     },
     {
         "id": 13,
-        "name": "User 13",
+        "name": "Punar Vashu",
         "github": "https://github.com/User13",
-        "portfolio": "https://portfolio.com/User13",
-        "img": "/photo/img13.jpg",
+        "portfolio": "https://astounding-jalebi-1b6b73.netlify.app/",
+        "img": "/photo/img13.png",
         "github_username": "User13"
     },
     {
         "id": 14,
-        "name": "User 14",
+        "name": "Adarsh Priyadarshi",
         "github": "https://github.com/User14",
-        "portfolio": "https://portfolio.com/User14",
-        "img": "/photo/img14.jpg",
+        "portfolio": "https://adarshpriydarshi.netlify.app/",
+        "img": "/photo/img14.png",
         "github_username": "User14"
     },
     {
         "id": 15,
-        "name": "User 15",
+        "name": "Vaibhav Singh",
         "github": "https://github.com/User15",
-        "portfolio": "https://portfolio.com/User15",
-        "img": "/photo/img15.jpg",
+        "portfolio": "https://radiant-genie-1bf544.netlify.app/",
+        "img": "/photo/img15.png",
         "github_username": "User15"
     },
     {
         "id": 16,
-        "name": "User 16",
+        "name": "Birajit Saikia",
         "github": "https://github.com/User16",
-        "portfolio": "https://portfolio.com/User16",
-        "img": "/photo/img16.jpg",
+        "portfolio": "https://biru-codeastromer.github.io/portfolio-of-birajit/",
+        "img": "/photo/img16.png",
         "github_username": "User16"
     },
     {
         "id": 17,
-        "name": "User 17",
+        "name": "Aryan Verma",
         "github": "https://github.com/User17",
-        "portfolio": "https://portfolio.com/User17",
-        "img": "/photo/img17.jpg",
+        "portfolio": "https://aryanverma1008.netlify.app/",
+        "img": "/photo/img17.png",
         "github_username": "User17"
     },
     {
