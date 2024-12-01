@@ -17,7 +17,7 @@ Welcome to the **NSTxADYPU Students Portfolio** project! This web application sh
 
 ## Project Structure
 
-```bash
+```bash'''
 .
 ├── index.html        # The main HTML file for the webpage
 ├── styles.css        # The CSS file containing styles for the webpage
