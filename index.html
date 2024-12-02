@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NST-SDC Portfolio</title>
+    <title>Portfolio-Showcase</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <!-- External CSS -->
@@ -14,15 +14,18 @@
     <header id="main-header">
         <div class="header-content">
             <h1>NSTxADYPU Students Portfolio</h1>
-            <div id="search-container">
-                <input type="text" id="search-bar" placeholder="Search by name..." />
-            </div>
+            <input type="text" id="search-bar" placeholder="Search by name..." />
         </div>
     </header>
 
     <!-- Main Showcase Area -->
-    <div id="main-container">
-        <!-- User cards will be dynamically added here -->
+    <div id="main-container"></div>
+
+    <!-- Pagination Controls -->
+    <div id="pagination-controls">
+        <button id="prev-btn" disabled>Previous</button>
+        <span id="page-info"></span>
+        <button id="next-btn">Next</button>
     </div>
 
     <!-- External JavaScript -->
