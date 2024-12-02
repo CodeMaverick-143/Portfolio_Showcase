@@ -7,34 +7,33 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-    padding: 20px 0;
-    overflow: auto;
+    min-height: 100vh;
 }
 
 /* Header Section */
 #main-header {
-    width: 100%;
+    width: 90%;
+    max-width: 1200px;
     background: linear-gradient(145deg, #1e1e2f, #2a2a44);
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
+    text-align: center;
+    padding: 20px 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 }
 
 #main-header h1 {
     font-size: 2.5em;
+    margin: 0;
     color: #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-#search-container {
+#main-header input#search-bar {
     margin-top: 15px;
-}
-
-#search-bar {
+    width: 80%;
+    max-width: 500px;
     padding: 12px 18px;
     font-size: 1.2em;
     border-radius: 25px;
@@ -44,15 +43,14 @@ body {
     color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
-    width: 80%;
 }
 
-#search-bar:focus {
+#main-header input#search-bar:focus {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
     transform: translateY(-3px);
 }
 
-#search-bar::placeholder {
+#main-header input#search-bar::placeholder {
     color: #aaa;
 }
 
@@ -62,7 +60,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin-top: 30px;
+    margin: 20px 0;
+    padding: 0 20px;
+    width: 100%;
 }
 
 /* Individual User Card */
@@ -81,18 +81,15 @@ body {
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8), 0 -5px 20px rgba(255, 255, 255, 0.1);
 }
 
-/* Image Styling */
 .user-card img {
     width: 100%;
     height: 200px;
     border-radius: 10px;
     border: 4px solid #fff;
     object-fit: cover;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     margin-bottom: 15px;
 }
 
-/* Name Styling */
 .user-card .name {
     font-size: 1.2em;
     margin: 10px 0;
@@ -120,27 +117,6 @@ body {
     text-shadow: 0 0 10px #03e9f4, 0 0 20px #03e9f4;
 }
 
-/* Portfolio Button */
-.user-card .portfolio a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 8px 15px;
-    background: linear-gradient(90deg, #ff8a00, #e52e71);
-    border-radius: 25px;
-    box-shadow: 0 5px 15px rgba(255, 0, 150, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.user-card .portfolio a:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(255, 0, 150, 0.5);
-    background: linear-gradient(90deg, #e52e71, #ff8a00);
-    color: #fff;
-}
-
 /* Pagination Controls */
 #pagination-controls {
     display: flex;
@@ -153,7 +129,6 @@ body {
 #pagination-controls button {
     padding: 10px 20px;
     font-size: 1em;
-    font-family: 'Orbitron', sans-serif;
     color: #fff;
     background: linear-gradient(90deg, #ff8a00, #e52e71);
     border: none;
