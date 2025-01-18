@@ -13,7 +13,7 @@ Welcome to the **NSTxADYPU Students Portfolio** project! This web application sh
 
 - **HTML5**: Markup language used for structuring the content.
 - **CSS3**: Styling language used for layout and design, including gradients, shadows, and responsive styles.
-- **JavaScript**: Used for dynamic functionality, such as search and pagination controls.
+- **JavaScript**: Used for dynamic functionality, such as search and pagination controls..
 
 ## Project Structure
 
