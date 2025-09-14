@@ -5,7 +5,7 @@ const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 const pageInfo = document.getElementById('page-info');
 
-// Pagination Variables
+// Pagination Variables....
 let currentPage = 1; // Start with the first page
 const itemsPerPage = 10; // Show 10 items per page
 let allUsers = []; // This will hold the fetched user data
